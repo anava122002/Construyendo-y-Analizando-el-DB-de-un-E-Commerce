@@ -25,6 +25,7 @@ f1_showcase_project/
         04_quality_checks.sql
         05_semantic_queries.sql
         06_analysis_queries.sql
+        07_simulation_procedures.sql
     src/
         __init__.py
         data_creation.py
@@ -187,6 +188,19 @@ Los datos vistos durante el análisis nos llevan a las siguientes conclusiones:
 
 * **Engagement del cliente:** Reducir el tiempo entre compras es crítico para aumentar ingresos y fidelización en todos los mercados. Deben implementarse programas de fidelización y promociones para disminuir el espacio entre compras. También es importante mejorar la logística y capacidad operativa en mercados en crecimiento para sostener la demanda, particularmente en Canadá.
 
+## Extra: simulación de nueva order (`07_simulation_procedures.sql`)
+
+En este archivo se definen una serie de procedures que registran un nuevo pedido de un usuario dado y actualizan las tablas *fct_orders*, *fct_order_details* y *fct_inventory*. A continuación se describen las partes del archivo:
+
+* `fn_next_id`: función que genera el siguiente ID correlativo dado un prefijo y el último ID existente. Extrae el número del string, le suma 1 y reconstruye el formato original con padding de ceros.
+
+* `tr_update_stock`: trigger que se dispara automáticamente tras cada inserción en *fct_order_details*. Descuenta del stock en *fct_inventory* la cantidad comprada de cada producto sin necesidad de llamarlo explícitamente.
+
+* `sp_adding_product_to_cart`: procedure que valida y añade un producto a la tabla temporal *tmp_order_items*. Comprueba que el producto existe, está activo, la cantidad es válida y hay stock suficiente antes de insertar.
+
+* `sp_adding_new_order`: procedure que construye una orden completa a partir de  *tmp_order_items*. Valida que el cliente existe, asigna automáticamente el trabajador menos cargado del mismo país, genera los IDs de orden y detalles, e inserta en fct_orders y fct_order_details dentro de una transacción. El trigger se encarga del stock automáticamente. Al finalizar destruye la tabla temporal.
+
+Incluye un ejemplo que pone en práctica lo que se pretende con este archivo.
 
 ## Replicación del proyecto
 
