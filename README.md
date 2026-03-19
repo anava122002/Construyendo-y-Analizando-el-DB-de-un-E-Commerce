@@ -179,7 +179,13 @@ Los datos indican que las diferencias en el rendimiento del negocio no se explic
 
 ## Conclusiones y Estrategias a Futuro
 
+Los datos vistos durante el análisis nos llevan a las siguientes conclusiones:
 
+* **Canadá es un motor clave:** es el mercado más rentable y dinámico; su crecimiento rápido lo convierte en la principal oportunidad de expansión. Sería conveniente priorizar inversión y campañas de marketing en Canadá para aumentar frecuencia y explotar el mercado al máximo, además de explorar la posible expansión de categorías rentables y productos de alto margen.
+
+* **Reino Unido e Irlanda se estancan:** su menor frecuencia de compra y volumen limita la rentabilidad; conviene evaluar si reactivarlos, por ejemplo con estrategias de engagement eficaces, vale la inversión.
+
+* **Engagement del cliente:** Reducir el tiempo entre compras es crítico para aumentar ingresos y fidelización en todos los mercados. Deben implementarse programas de fidelización y promociones para disminuir el espacio entre compras. También es importante mejorar la logística y capacidad operativa en mercados en crecimiento para sostener la demanda, particularmente en Canadá.
 
 
 ## Replicación del proyecto
