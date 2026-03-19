@@ -1,6 +1,6 @@
 /* ============================================================
    SQL PROJECT - Online Supermarket Dataset
-   FILE 7 - 07_simulation_functions.sql
+   FILE 7 - 07_simulation_procedures.sql
    ============================================================ */
 
 
