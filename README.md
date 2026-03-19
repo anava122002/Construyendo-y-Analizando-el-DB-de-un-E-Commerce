@@ -1,4 +1,4 @@
-# SQL PROJECT: building and analysing an online supermarket's dataset
+# SQL PROJECT: construyendo y analizando el dataset de un e-commerce
 
 Este proyecto simula la base de datos de una plataforma de e-commerce que opera en tres países: Reino Unido, Irlanda y Canadá. El objetivo es analizar su contenido para obtener insights sobre rendimiento del negocio en base a una serie de preguntas preestablecidas.
 
