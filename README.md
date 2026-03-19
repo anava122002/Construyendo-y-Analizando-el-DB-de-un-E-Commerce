@@ -52,21 +52,21 @@ Los datos a partir de los cuales se ha construido el dataset provienen de:
 
 A continuación se especifican las características de las tablas del dataset final:
 
-* **Products (`pr_data.csv`):** x filas; y columnas. 
+* **Products (`pr_data.csv`):** 494 filas; 7 columnas. 
     * *Variables clave:* product_id, product_name, product_price.
-* **Categories (`ca_data.csv`):** x filas; y columnas. 
+* **Categories (`ca_data.csv`):** 11 filas; 2 columnas. 
     * *Variables clave:* category_id, category.
-* **Brands (`br_data.csv`):** x filas; y columnas. 
+* **Brands (`br_data.csv`):** 343 filas; 2 columnas. 
     * *Variables clave:* brand_id, brand.
-* **Inventary (`in_data.csv`):** x filas; y columnas. 
+* **Inventary (`in_data.csv`):** 494 filas; 6 columnas. 
     * *Variables clave:* product_id, stock, last_restock.
-* **Customers (`cu_data.csv`):** x filas; y columnas. 
+* **Customers (`cu_data.csv`):** 8970 filas; 8 columnas. 
     * *Variables clave:* customer_id, country, subscription_date.
-* **Workers (`wo_data.csv`):** x filas; y columnas. 
+* **Workers (`wo_data.csv`):** 500 filas; 9 columnas. 
     * *Variables clave:* worker_id, country, hired_date, hours_day, salary_day.
-* **Orders (`or_data.csv`):** x filas; y columnas. 
+* **Orders (`or_data.csv`):** 50000 filas; 6 columnas. 
     * *Variables clave:* order_id, customer_id, worker_id, order_date, total_paid.
-* **Order Details (`de_data.csv`):**  x filas; y columnas. 
+* **Order Details (`de_data.csv`):**  423918 filas; 6 columnas. 
     * *Variables clave:* detail_id, order_id, product_id, quantity, total_price.  
 
 <br>
