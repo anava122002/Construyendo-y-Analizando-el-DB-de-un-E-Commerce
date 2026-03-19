@@ -1,0 +1,495 @@
+product_id,product_name,product_price,category_id,brand_id,rating,is_active
+PR00001,Garlic Oil - Vegetarian Capsule 500 mg,2.2,CA00001,BR00001,4.1,1
+PR00002,Water Bottle - Orange,1.8,CA00002,BR00002,2.3,1
+PR00003,"Brass Angle Deep - Plain, No.2",2.5,CA00003,BR00003,3.4,1
+PR00004,Cereal Flip Lid Container/Storage Jar - Assorted Colour,1.76,CA00003,BR00004,3.7,1
+PR00005,Creme Soft Soap - For Hands & Body,1.62,CA00001,BR00005,4.4,1
+PR00006,Germ - Removal Multipurpose Wipes,1.99,CA00003,BR00006,3.3,1
+PR00007,Multani Mati,0.58,CA00001,BR00007,3.6,1
+PR00008,Hand Sanitizer - 70% Alcohol Base,2.5,CA00001,BR00008,4.0,1
+PR00009,Biotin & Collagen Volumizing Hair Shampoo + Biotin & Collagen Hair Conditioner,10.98,CA00001,BR00009,3.5,1
+PR00010,"Scrub Pad - Anti- Bacterial, Regular",0.2,CA00003,BR00010,4.3,1
+PR00011,Wheat Grass Powder - Raw,2.9,CA00004,BR00011,4.0,1
+PR00012,Butter Cookies Gold Collection,6.0,CA00004,BR00012,2.2,1
+PR00013,"Face Wash - Oil Control, Active",1.1,CA00001,BR00013,5.0,1
+PR00014,Mold & Mildew Remover with Bleach,3.5,CA00003,BR00014,3.8,1
+PR00015,Just Spray - Mosquito Repellent Room Spray,2.0,CA00003,BR00015,4.2,1
+PR00016,Dove Plastic Soap Case - Assorted Colour,0.59,CA00003,BR00004,4.0,1
+PR00017,Smooth Skin Oil - For Dry Skin,3.6,CA00001,BR00016,5.0,1
+PR00018,Salted Pumpkin,1.8,CA00004,BR00017,4.9,1
+PR00019,Flax Seeds - Roasted,1.2,CA00004,BR00018,4.3,1
+PR00020,Organic Tofu - Soy Paneer,0.9,CA00004,BR00019,3.9,1
+PR00021,Ceramic Barrel Brush - Colour May Vary,7.0,CA00001,BR00020,4.2,1
+PR00022,Instant Noodles - Chicken Satay Flavor,0.5,CA00004,BR00021,4.1,1
+PR00023,Chia Seeds,1.85,CA00004,BR00134,,1
+PR00024,Cleanse Green Tea - Whole Leaf Loose Tea,0.75,CA00004,BR00023,3.9,1
+PR00025,Veggie Cutter,1.95,CA00002,BR00024,5.0,1
+PR00026,Insulated Hot Fresh Casserole For Roti/Chapati - White,8.95,CA00002,BR00025,3.3,1
+PR00027,Granola - Happy Berries,2.65,CA00006,BR00026,3.5,1
+PR00028,Flaxseed - Pesticide Free,0.55,CA00005,BR00027,4.0,1
+PR00029,Paratha Puff,1.1,CA00006,BR00028,4.3,1
+PR00030,Lip Butter - Rose,1.99,CA00001,BR00029,1.5,1
+PR00031,Fruit Power - Masala Sugarcane,0.2,CA00007,BR00030,2.9,1
+PR00032,Chocobakes Choc Filled Cookies,1.2,CA00008,BR00031,4.2,1
+PR00033,Amber - Deodorant Body Spray,2.49,CA00001,BR00032,3.4,1
+PR00034,Green Tea - Tulsi Loose Leaf,2.25,CA00007,BR00033,3.7,1
+PR00035,Pet Solitaire Container Set - Silver,9.69,CA00002,BR00034,3.9,1
+PR00036,Dhania - Dal,1.2,CA00005,BR00035,4.1,1
+PR00037,Pudina Chutney Masala,0.55,CA00005,BR00036,3.9,1
+PR00038,Bodylicious Deodorant Spray - Mate (For Men),1.95,CA00001,BR00037,4.1,1
+PR00039,"Sport Deo Spray - Fresh, for Men",2.05,CA00001,BR00037,3.7,1
+PR00040,Choco Deck - Mini Delights,2.0,CA00006,BR00038,4.4,1
+PR00041,Eau De Toilette - Homme Green,4.5,CA00001,BR00039,4.3,1
+PR00042,Lemon & Tea Tree Oil Soap,3.6,CA00001,BR00040,4.2,1
+PR00043,Flavoured Cream Wafer Roll - Strawberry,2.75,CA00004,BR00041,4.3,1
+PR00044,Storage/Lunch Steel Container with PP Lid - Red,2.99,CA00002,BR00042,2.6,1
+PR00045,Plain Green Olives,1.79,CA00004,BR00043,5.0,1
+PR00046,Quinoa - Organic,2.5,CA00005,BR00044,3.9,1
+PR00047,After Shave Splash - Arctic Ice,4.69,CA00001,BR00045,3.9,1
+PR00048,Colour Catcher Sheets,7.99,CA00003,BR00046,4.0,1
+PR00049,Sauce - Sweet & Sour,2.45,CA00004,BR00047,3.7,1
+PR00050,Super Hot and Sweet Mango Chutney,1.25,CA00006,BR00048,3.0,1
+PR00051,Pani Puri Mix Paste,0.55,CA00005,BR00049,4.1,1
+PR00052,Peach Syrup,8.5,CA00004,BR00050,4.2,1
+PR00053,Acne & Oil Control Face Wash,1.0,CA00001,BR00051,4.0,1
+PR00054,Choco Deck - French Dessert Inspired Layered Bar,0.7,CA00006,BR00038,4.0,1
+PR00055,Extra Fine Green Peas,2.25,CA00004,BR00052,4.5,1
+PR00056,Soothing Cucumber Facial Scrub With Apricot Seeds,4.99,CA00001,BR00053,,1
+PR00057,Foochka,0.6,CA00006,BR00054,3.9,1
+PR00058,Argan-Liquid Gold Hair Spa,2.1,CA00001,BR00016,4.4,1
+PR00059,"Baby Bed Protector - Sublimation Print, Pink",1.99,CA00009,BR00055,3.7,1
+PR00060,Corporate Planner Diary With Premium PU Leather Cover With Card Holder,3.99,CA00003,BR00056,,1
+PR00061,"Atta Chalan - Stainless Steel, Size- No.8",1.79,CA00002,BR00057,3.5,1
+PR00062,Dog Supplement - Absolute Skin + Coat Tablet,4.98,CA00002,BR00058,4.0,1
+PR00063,"Peanut Butter - Creamy, Super",3.49,CA00004,BR00059,4.3,1
+PR00064,Sugar Free Petit Beurre - The Taste of France,0.35,CA00006,BR00060,4.0,1
+PR00065,Aqua Halo Rejuvenating Conditioner,2.25,CA00001,BR00061,1.0,1
+PR00066,Ayurvedic Anti-Tan Face Pack,4.49,CA00001,BR00053,,1
+PR00067,Dog Supplement - Absolute Calcium Tablet,3.99,CA00002,BR00058,3.9,1
+PR00068,Battery Power Kids Toothbrush - Barbie,4.99,CA00001,BR00062,4.0,1
+PR00069,Organic Carom Seeds/Ajwain/Om Kalu,0.72,CA00005,BR00063,,1
+PR00070,"Padded Harness - 3/4 inch, Grey Colour",8.4,CA00002,BR00064,,1
+PR00071,"Kids Motu Patlu Toothpaste - 2-5 Years, Bubble Fruit Flavour",0.43,CA00001,BR00062,4.0,1
+PR00072,Pure & Gentle Face Wash,1.5,CA00001,BR00065,4.3,1
+PR00073,Sesame Seed Oil,3.0,CA00001,BR00066,3.5,1
+PR00074,Til Dil Seeds,0.7,CA00004,BR00067,3.6,1
+PR00075,"Penta Plastic Pet Water Bottle - Green, Wide Mouth",1.26,CA00002,BR00068,,1
+PR00076,Acne Pimple Kit For Acne & Pimple Removal,5.0,CA00001,BR00069,3.0,1
+PR00077,"Disposable Bamboo Wood Skewer/Picker Sticks- For Barbeque, 12 Inch",2.99,CA00002,BR00070,4.3,1
+PR00078,& Moms Bathing Soap - Jasmine,1.2,CA00001,BR00071,4.6,1
+PR00079,Amla Chatpata Dry Fruit,0.65,CA00004,BR00072,,1
+PR00080,"Toothbrush Superhero Assorted, Batman/Spiderman",0.79,CA00001,BR00062,3.9,1
+PR00081,Chips - Topica,0.65,CA00006,BR00073,3.9,1
+PR00082,Cup a Soup - Croutons Cream of Asparagus,2.99,CA00004,BR00074,,1
+PR00083,Organic Dal - Masoor,0.96,CA00005,BR00075,3.9,1
+PR00084,Strawberry Ice Cream,2.25,CA00004,BR00076,,1
+PR00085,Exo Dishwash Bar- Round 700 gm Box + Pril Dishwash Liquid- Active 2X Lime 225 ml,1.14,CA00003,BR00077,,1
+PR00086,Jupiter Water/Juice Glass Tumbler,6.29,CA00002,BR00068,,1
+PR00087,"Cheese - Feta Greek, Block",7.73,CA00004,BR00072,,1
+PR00088,Avida 3-in-1 Semi Economy Pouch -  FG01248,0.35,CA00003,BR00078,4.6,1
+PR00089,Bathing Soap - Sandal & Turmeric,2.99,CA00001,BR00079,4.2,1
+PR00090,Sweet Corn Kernels - Chipotle,0.55,CA00010,BR00080,,1
+PR00091,Ashwagandha Tablets,1.2,CA00001,BR00081,,1
+PR00092,Hard Anodised Ezee-Pour Saucepan With Lid - L88,9.1,CA00002,BR00082,4.6,1
+PR00093,Topp Up Milk - Elaichi,0.9,CA00008,BR00083,5.0,1
+PR00094,Namkeen - Madras Mixture,0.1,CA00006,BR00084,4.1,1
+PR00095,"Stainless Steel Storage Lunch Container - Flat, Carry Snack Pack",2.49,CA00002,BR00085,1.5,1
+PR00096,Oceans Deodorant for Men - Long Lasting & Fresh Aquatic Fragrance,2.99,CA00001,BR00086,4.0,1
+PR00097,Hair Remover Spray - Foam Lemon,12.0,CA00001,BR00087,,1
+PR00098,Mr. Magic Powder-To-Liquid Germ Protection Handwash Empty Bottle + Refill,0.35,CA00001,BR00088,4.4,1
+PR00099,Frankincense Oil,3.45,CA00001,BR00029,3.7,1
+PR00100,"Wonder Diaper Pants - Xtra Large, 12-17 Kg",13.98,CA00009,BR00089,4.0,1
+PR00101,Samrakshana Vaastu Deepa Thailam,5.15,CA00005,BR00090,,1
+PR00102,Quinoa - Organic Black,4.95,CA00004,BR00091,,1
+PR00103,Fructis Serum - Long & Strong,2.3,CA00001,BR00092,4.8,1
+PR00104,Citrus Blast Orange Lemon Soap Free Body Wash,2.5,CA00001,BR00093,3.7,1
+PR00105,Veda Marie Light Biscuits,0.3,CA00006,BR00094,4.4,1
+PR00106,"2 Fold Umbrella - Auto-Open & Manual Close, Dark Violet",7.49,CA00002,BR00095,3.6,1
+PR00107,Aamras Mango Fruit Juice,3.6,CA00007,BR00096,,1
+PR00108,Henna & Ginseng Anti Hair Loss Shampoo,1.45,CA00001,BR00097,3.6,1
+PR00109,"Sandwich Toaster - Non-Stick, Gas",3.15,CA00002,BR00098,3.3,1
+PR00110,"Baby Cereal - Ragi Almond & Banana, 6-8 Months, No Preservatives, No Artificial Colours",3.49,CA00009,BR00099,4.0,1
+PR00111,Incense Sticks - Sandal,0.6,CA00003,BR00100,4.6,1
+PR00112,SPF 15 Sunscreen Lotion,2.99,CA00001,BR00101,5.0,1
+PR00113,Fenugreek,0.3,CA00005,BR00044,4.2,1
+PR00114,Caramel Popcorn - Himalayan Salt,0.49,CA00004,BR00102,,1
+PR00115,Cold Pressed Bhringraj Cooling Oil For Hair Fall & Damage Control,2.15,CA00001,BR00103,4.0,1
+PR00116,Sapota - Organically Grown,0.4375,CA00010,BR00104,,1
+PR00117,Spiced Tea - Blend Of 7 Refreshing Spices,1.5,CA00007,BR00105,4.3,1
+PR00118,"Steel Bowl/Vati/Katori - No. 4, Chutney",1.59,CA00002,BR00068,,1
+PR00119,"Adult Dry Cat Food - +1 Year, Ocean Fish",9.99,CA00002,BR00106,,1
+PR00120,Millet Rusk - Sweet,1.0,CA00008,BR00107,4.5,1
+PR00121,"Stainless Steel Kadai - Induction Bottom With Glass Lid,  26 cm",13.35,CA00002,BR00108,3.8,1
+PR00122,"Power Pocket - Long Lasting Bathroom Fragrance, Berry Rush",0.55,CA00003,BR00109,4.2,1
+PR00123,Cabbage - Red,0.2875,CA00010,BR00104,,1
+PR00124,Marvel Spiderman 2-In-1 Snackeez Bottle With Snack Box,2.99,CA00002,BR00110,3.0,1
+PR00125,Refined Oil - Rice Bran (Natural Oryzanol & Vitamin E),1.85,CA00005,BR00111,4.1,1
+PR00126,Premium Square Plastic Container - Green,2.8,CA00002,BR00002,3.9,1
+PR00127,Instant Popcorn - Butter Delite,0.33,CA00006,BR00112,4.2,1
+PR00128,Cherry Lip Balm 4.5 g + Deep Nourish Elbow & Foot Cream 50 g,5.25,CA00001,BR00113,,1
+PR00129,Nutrition Plus Health Supplement - Joint Support,12.99,CA00001,BR00114,,1
+PR00130,Glass Belleza Bowl - Wine,3.98,CA00002,BR00115,,1
+PR00131,Dark Fantasy - Choco Fills Biscuits - Cookies,0.3,CA00006,BR00094,4.3,1
+PR00132,Banana - Red,0.4875,CA00010,BR00104,,1
+PR00133,"Chilli - Bajji, Mild",0.175,CA00010,BR00104,,1
+PR00134,I Love You Fruit N Nut Chocolate,1.0,CA00006,BR00116,4.2,1
+PR00135,Pitted Green Olives,2.3,CA00004,BR00117,4.4,1
+PR00136,Glass Mixing Bowl With Lid - Polo,1.9,CA00002,BR00118,3.7,1
+PR00137,Cake Gel,0.9,CA00004,BR00119,,1
+PR00138,Toffees - Excellence Assorted,2.5,CA00004,BR00012,,1
+PR00139,Organic Idly Podi - Ginger,0.75,CA00006,BR00120,3.9,1
+PR00140,Glass Water Bottle - Aquaria Organic Purple,4.25,CA00002,BR00025,4.8,1
+PR00141,Stainless Steel Pav Bhaji/Idli Oval Shaped Plate,1.25,CA00002,BR00098,3.6,1
+PR00142,Organic Cow Ghee/Tuppa,2.8,CA00005,BR00121,4.2,1
+PR00143,Dates/Kharjura - Deseeded,0.66,CA00005,BR00122,4.1,1
+PR00144,Chutney - Sweet Mango Sliced (without Garlic),0.9,CA00006,BR00123,3.9,1
+PR00145,Turmeric Powder/Arisina Pudi,0.64,CA00005,BR00124,4.2,1
+PR00146,Bread - Fruit,0.2,CA00008,BR00125,,1
+PR00147,Bombay Street Food Spice Blend,2.25,CA00004,BR00126,,1
+PR00148,Ragi Flakes,2.25,CA00006,BR00019,4.5,1
+PR00149,Mustard Oil - Cold Pressed,2.5,CA00004,BR00127,3.7,1
+PR00150,Juice/Water Glass - Long Drink Nord,9.75,CA00002,BR00128,3.3,1
+PR00151,Glass Amaze Air Tight Jar - Pink,3.58,CA00002,BR00115,,1
+PR00152,"Finger Brush For Kids - Blue, Ultra Soft",1.2,CA00001,BR00129,4.3,1
+PR00153,Water/Juice Glass  - Jupiter Long Glass,7.05,CA00002,BR00128,3.5,1
+PR00154,Energy Bar - Choco Crunch,0.5,CA00004,BR00130,,1
+PR00155,Breeze - Razor Blades,3.5,CA00001,BR00131,4.3,1
+PR00156,"Confeito Vermicelli Combo, Sprinkles",2.6,CA00004,BR00132,,1
+PR00157,Olive Oil - Classic,13.5,CA00004,BR00334,,1
+PR00158,"Octa Plastic Pet Water Bottle - Light Blue, Narrow Mouth",0.42,CA00002,BR00068,,1
+PR00159,Skin Cream,1.5,CA00001,BR00135,3.1,1
+PR00160,One Touch Air Purifier Freshener - Floral Bouquet Refill,0.77,CA00003,BR00136,4.2,1
+PR00161,Water/Juice Glass,2.2,CA00002,BR00118,3.7,1
+PR00162,Color Naturals Creme Riche Ultra Hair Color - Raspberry Red,1.99,CA00001,BR00092,4.1,1
+PR00163,Nomarks - Antimarks Soap For Oily Skin,0.4,CA00001,BR00137,4.3,1
+PR00164,"Silver Needles Tulsi White Tea Bags - Rich In Antioxidants, Pure Tea Buds",4.5,CA00004,BR00138,,1
+PR00165,Baby Napkins - Mini Terry,1.79,CA00009,BR00139,4.3,1
+PR00166,"Printed Fabric Pencil Pouch - Purple, BB1263DPPL",3.99,CA00003,BR00140,4.0,1
+PR00167,Snacks - Roasted Mixture Lime,1.09,CA00004,BR00141,,1
+PR00168,Organic Dosa Mix - Jowar,0.8,CA00006,BR00120,3.7,1
+PR00169,Lunch Box/Tiffin Set - Green BB 570 2,5.65,CA00002,BR00142,3.6,1
+PR00170,BCAA Energy Drink - Berry Flavour,1.1,CA00007,BR00143,4.0,1
+PR00171,Coffee Energizing Face Scrub,1.9,CA00001,BR00144,3.0,1
+PR00172,Pain Relief - Oil,1.0,CA00001,BR00145,4.4,1
+PR00173,Ultra Soft New Born Diapers - Extra Small,9.99,CA00009,BR00089,3.9,1
+PR00174,Jungle Stimulating Facial Cleanser,7.99,CA00001,BR00009,,1
+PR00175,Ylang Ylang Essential Oil,3.9,CA00001,BR00167,3.0,1
+PR00176,Clear Glycerine Soap - Natural Toning (Tea Tree Oil & Honey),0.4,CA00001,BR00146,4.3,1
+PR00177,Soap,4.3,CA00001,BR00147,5.0,1
+PR00178,Yellow Balm,1.95,CA00001,BR00148,,1
+PR00179,"LED Bulb - 12 Watt, Cool Daylight, B22 Base",2.6,CA00002,BR00149,4.0,1
+PR00180,Coriander Leaves 100 g + Garlic 250 g + Ginger 250 g + Chilli Green Long 250 g,1.0937999999999999,CA00010,BR00104,,1
+PR00181,Jaggery/Bella Powder - Pesticide Free,0.7,CA00005,BR00027,3.9,1
+PR00182,Ready Masala - Kashmiri Meat,0.2,CA00005,BR00150,4.2,1
+PR00183,"Water Saving Aerator, Switch",5.09,CA00003,BR00151,,1
+PR00184,Lemongrass Anti-Pigmentation Massage Cream,1.65,CA00001,BR00152,,1
+PR00185,Breakfast Mix - Finger Millet Ragi Idli,1.49,CA00006,BR00141,4.2,1
+PR00186,Herbal Wine Grapefruit Lip Balm,0.99,CA00001,BR00153,4.4,1
+PR00187,Masala Upma,0.2,CA00006,BR00154,3.4,1
+PR00188,Maharishi Ayurveda Ayush Kwath,1.65,CA00001,BR00155,,1
+PR00189,Svachh Nakshtra Steel Inner Lid Pressure Cooker (20257),27.8,CA00002,BR00156,,1
+PR00190,Chicken Liver Gourmet Loaf With Pumpkin - Super Food,1.5,CA00002,BR00157,,1
+PR00191,Bath & Body Oil - Oriental Spicy Rose,6.99,CA00001,BR00158,2.0,1
+PR00192,"Specialist Skin Care Oil - Scars, Stretch Mark, Ageing, Uneven Skin Tone",4.5,CA00001,BR00159,4.2,1
+PR00193,Brioche,1.55,CA00008,BR00160,4.4,1
+PR00194,Onion - Rings,0.75,CA00004,BR00161,,1
+PR00195,Cotton Mop With Telescopic Handle 150 Cm,6.2,CA00003,BR00162,,1
+PR00196,Kale,0.125,CA00010,BR00104,,1
+PR00197,"Notebook - Unruled, Long",0.33,CA00003,BR00163,4.3,1
+PR00198,Instant Noodles - Soy & Vinegar,0.75,CA00004,BR00021,3.6,1
+PR00199,Gluten-Free Quinoa Flour,3.78,CA00004,BR00017,3.7,1
+PR00200,"Chikki, Peanut Bar",0.4,CA00006,BR00096,4.1,1
+PR00201,1001 Nights Concentrated Oriental Perfume Free From Alcohol For Unisex,50.0,CA00001,BR00164,,1
+PR00202,Man - Indigo Body Mist,3.48,CA00001,BR00165,,1
+PR00203,Fields Of Gold Organic Cumin - Whole,0.52,CA00005,BR00166,4.4,1
+PR00204,Body Massage Oil - Energising,7.75,CA00001,BR00167,,1
+PR00205,Synthetic Food Colour Preparation Lemon Yellow,0.2,CA00006,BR00168,4.0,1
+PR00206,"Toothpaste - Gum Care, Expert Protection",0.98,CA00001,BR00169,4.3,1
+PR00207,Bio Myristica Spot Correcting Anti Acne Face Pack,1.99,CA00001,BR00144,3.9,1
+PR00208,"Stainless Steel Frying Ladle - No. 9, Silvera",0.82,CA00002,BR00170,3.7,1
+PR00209,OvenOrg Multi Millet Rusk,0.35,CA00008,BR00166,1.8,1
+PR00210,Mahabhringraj Tel - Hairfall Reduction & Dandruff Control,2.95,CA00001,BR00171,,1
+PR00211,Masterchefs Germ Protection Liquid Handwash Refill,1.47,CA00001,BR00088,4.2,1
+PR00212,Black Naturals Hair Colour Shade 1-Deep Black 20 ml + 20 gm,1.17,CA00001,BR00092,4.2,1
+PR00213,Apple Cider Vinegar - Raw Unfiltered Unpasteurized with Cinamon & Honey,4.99,CA00004,BR00172,5.0,1
+PR00214,"Brinjal - Varikatri, Organically Grown",0.125,CA00010,BR00104,,1
+PR00215,Wonderz Milk Shakes - Classic Vanilla,0.35,CA00008,BR00094,4.5,1
+PR00216,Marie Light Biscuits - Oats Fibre,0.25,CA00006,BR00094,4.3,1
+PR00217,Masala - Chicken,0.28,CA00005,BR00173,4.8,1
+PR00218,Dark Chocolate- 55% Rich In Cocoa,1.0,CA00006,BR00116,4.3,1
+PR00219,Gentle Baby Wipes,6.99,CA00009,BR00174,4.1,1
+PR00220,Avocado,1.3125,CA00010,BR00104,,1
+PR00221,Plastic Dustbin - Beige,4.49,CA00003,BR00140,4.1,1
+PR00222,"Pineapple - Chunks, Single Serve",0.2375,CA00010,BR00104,,1
+PR00223,Jeera Powder,0.52,CA00005,BR00036,4.1,1
+PR00224,Pure Neem Skin Purifying Face Wash,1.2,CA00001,BR00175,4.3,1
+PR00225,Lemon - Organically Grown,0.42,CA00010,BR00104,,1
+PR00226,Lavender & Vanilla Handmade Luxury Soap,2.75,CA00001,BR00009,5.0,1
+PR00227,"Stainless Steel Pressure Cooker - Steeltuff, Induction Base, Silver",24.24,CA00002,BR00176,3.0,1
+PR00228,"Steel Deep Dabba/Storage Container - No. 12, Plain",3.39,CA00002,BR00068,,1
+PR00229,Chyawan Fit Sugarfree Chyawanprash - Natural Immunity Booster,2.25,CA00001,BR00171,5.0,1
+PR00230,Morning Dew Perfumed Talc 250 g + English Lavender Perfumed Talc 250 g,4.0,CA00001,BR00177,,1
+PR00231,"Energy Bars - Nutty, 4+ Years, 100% Natural & Healthy",1.4,CA00006,BR00178,3.6,1
+PR00232,Banana Stem - Diced,0.4,CA00010,BR00104,,1
+PR00233,Chilli Flakes,0.99,CA00004,BR00179,4.3,1
+PR00234,Bite & Sip Flask And Lunch Box/Tiffin Box - Green Colour,4.95,CA00002,BR00180,3.5,1
+PR00235,Namkeen - Khara Boondi,0.85,CA00006,BR00181,4.0,1
+PR00236,Raw Seeds - Sunflower Pumpkin Flax Seeds,1.75,CA00004,BR00018,4.4,1
+PR00237,"Garnet LED White Bulb - 14 Watt, Cool Day, B22",3.2,CA00002,BR00182,3.5,1
+PR00238,Tempeh Cubes - Simply Sriracha Soyabean,1.5,CA00008,BR00183,5.0,1
+PR00239,Green Tea Gentle Detox Set,9.72,CA00001,BR00184,,1
+PR00240,Fresh Catch Fish Fingers,2.4,CA00011,BR00185,,1
+PR00241,Sour Cream & Onion,0.95,CA00004,BR00186,2.8,1
+PR00242,Xylitol Powder,3.5,CA00004,BR00187,5.0,1
+PR00243,Sixer Biscuits - Salted,0.6,CA00006,BR00188,4.2,1
+PR00244,"Gokshuradi Guggulu - Urinary Disorders, 500mg",0.8,CA00001,BR00189,,1
+PR00245,Peach Shine Lip Care,1.5,CA00001,BR00174,4.0,1
+PR00246,Skincare Hand Wash Refill,2.18,CA00001,BR00071,4.3,1
+PR00247,4mm Aluminium Induction Base Chapati Roti Tawa - Silver,12.89,CA00002,BR00190,,1
+PR00248,Mix - Rava Idli,1.1,CA00006,BR00191,4.1,1
+PR00249,Impress Concentrated Perfume Free From Alcohol For Male,5.0,CA00001,BR00164,,1
+PR00250,Skin Awakening Rinse,4.8,CA00001,BR00113,5.0,1
+PR00251,Pacific Steel Insulated Vacuum Flask,9.99,CA00002,BR00068,,1
+PR00252,Regenerist - Advanced Anti-Ageing Revitalising Hydration Skin Cream Moisturizer SPF 15,13.99,CA00001,BR00192,4.1,1
+PR00253,Cotton Swabs,1.09,CA00001,BR00199,4.0,1
+PR00254,"Tropical Fruit Pudding - Lychee, Mango, Strawberry Flavoured",0.75,CA00004,BR00194,4.0,1
+PR00255,Pippali Fruit Powder - Supports Healthy Digestive & Immune System,5.95,CA00001,BR00195,,1
+PR00256,Salt & Peeper Shaker Masala Dabbi With Window,1.25,CA00002,BR00196,3.2,1
+PR00257,Organic - Triphala Powder,0.99,CA00005,BR00044,4.2,1
+PR00258,Aeda Glycerine Bathing Bar - Natural Green,0.35,CA00001,BR00197,4.7,1
+PR00259,Chicken Cocktail Sausage,2.2,CA00011,BR00104,,1
+PR00260,Sun Expert Fairnes Sunscren Lotion SPF 30 PA++,3.85,CA00001,BR00198,4.5,1
+PR00261,Cotton Pads,0.8,CA00001,BR00199,4.4,1
+PR00262,Ashwagandha Powder,4.0,CA00004,BR00200,2.5,1
+PR00263,Frozen - Mixed Vegetables,1.1,CA00006,BR00201,4.1,1
+PR00264,Masala - Kitchen,0.33,CA00005,BR00202,5.0,1
+PR00265,Mustard/Sasive/Rai - Big,0.5,CA00005,BR00035,4.2,1
+PR00266,Ayurvedic Soap,2.88,CA00001,BR00203,4.4,1
+PR00267,"Glass Matt Finish Bottle With Plastic Cap - Blue, BB1324",3.09,CA00002,BR00140,,1
+PR00268,Perfume - Youth Dew EDP Spray,35.0,CA00001,BR00204,,1
+PR00269,Organic Idly - Oats,1.25,CA00006,BR00120,,1
+PR00270,Red Curry,2.7,CA00004,BR00205,4.4,1
+PR00271,Hareli Kitchen Jar,5.02,CA00002,BR00206,,1
+PR00272,Heavy Starch - Lemon Fresh Scent,2.85,CA00003,BR00207,4.5,1
+PR00273,United Dreams Go Far Eau De Toilette,19.0,CA00001,BR00208,5.0,1
+PR00274,Ayurvedic Jamun Powder,0.6,CA00001,BR00209,,1
+PR00275,So Soft 2 Ply Face Tissue Box,1.4,CA00003,BR00210,4.1,1
+PR00276,"Pomegranate - Single Serve, Peeled",0.425,CA00010,BR00104,,1
+PR00277,Stevia Spoonable - Powder,3.2,CA00004,BR00187,3.9,1
+PR00278,Toor/Arhar Dal,1.6,CA00005,BR00211,,1
+PR00279,Peristaltic Nipple - 'S' Hole,0.99,CA00009,BR00212,,1
+PR00280,Fragrance Body Spray - Cool Blue,2.9,CA00001,BR00213,3.5,1
+PR00281,Vitamin C Brightening Peel Off Mask,4.99,CA00001,BR00009,,1
+PR00282,Almond & Rose Soap Value Pack,1.6,CA00001,BR00174,4.3,1
+PR00283,Yippee Noodles - Magic Masala,0.68,CA00006,BR00094,4.3,1
+PR00284,Fields Of Gold Organic Foxtail Millet,0.9,CA00005,BR00166,4.5,1
+PR00285,Arrabbiata Tomato Pasta Sauce With Chilli,3.25,CA00004,BR00214,5.0,1
+PR00286,"Wood - Centre Filled Bar Infused With Dark Mousse, Cinnamon & Coffee",3.5,CA00006,BR00038,4.5,1
+PR00287,Basil Seed Drink - Orange,0.99,CA00004,BR00215,,1
+PR00288,Solution Anti Blackhead/Whitehead Masksheet (Pack of 10),15.0,CA00001,BR00216,,1
+PR00289,Acno Fight Pimple Clearing Gel,1.49,CA00001,BR00217,3.3,1
+PR00290,Pork Classic Salami,2.25,CA00011,BR00218,,1
+PR00291,Gold Flash - Mosquito Repellent Combo Machine & Refill,2.57,CA00003,BR00219,4.3,1
+PR00292,Stainless Steel Airtight Storage Container - SL-1401,2.69,CA00002,BR00220,3.7,1
+PR00293,Whisky Cocktail Mixers - 100% Natural,12.0,CA00004,BR00221,,1
+PR00294,Family Sunscreen Lotion SPF 25,4.2,CA00001,BR00066,1.0,1
+PR00295,Japanese Cooking Rice-Wine,5.0,CA00004,BR00222,1.0,1
+PR00296,Coated Green Peas - Wasabi,1.1,CA00004,BR00223,4.1,1
+PR00297,Charminar Basmati Rice/Basmati Akki - Select,5.69,CA00005,BR00150,3.9,1
+PR00298,Hide & Seek Choco Rolls,0.5,CA00006,BR00188,4.3,1
+PR00299,"Hair Fall Control Kit - Oil, Shampoo & Serum",10.5,CA00001,BR00224,5.0,1
+PR00300,"Anti-Acne Face Cleanser - With Salyclic Acid, For Oily Skin",2.95,CA00001,BR00225,3.0,1
+PR00301,Gluten-Free Moong Dal Cheela/Dosa Mix,2.59,CA00004,BR00017,4.2,1
+PR00302,Milk Boiler - Aluminium,7.32,CA00002,BR00226,2.5,1
+PR00303,"Green Tea - Pure, Bio-Degradable",2.97,CA00004,BR00227,,1
+PR00304,Cube Storage Glass Jar,3.7,CA00002,BR00228,4.4,1
+PR00305,M1 Perfume Spray - For Men,4.2,CA00001,BR00037,4.3,1
+PR00306,Tulsi Mulethi Green Tea,3.0,CA00004,BR00229,,1
+PR00307,Nicer Dicer,11.95,CA00002,BR00024,2.6,1
+PR00308,Masala - Punjabi Chhole,0.33,CA00005,BR00230,4.3,1
+PR00309,"Pork - Fresh Bacon, Sliced",4.0,CA00011,BR00072,,1
+PR00310,Active Salt Toothpaste Saver Pack 300g + Sensitive Soft Bristles Toothbrush 4pcs,2.58,CA00001,BR00062,,1
+PR00311,Silicone Feeding Nipple/Teat Regular Neck - Size XL,1.5,CA00009,BR00231,,1
+PR00312,"Microwaveable Plastic Multiutility Bowl - Yellow, New Coral, L2272 YL",0.38,CA00002,BR00232,3.6,1
+PR00313,Chicken Jalapeno Cheese Nuggets,3.0,CA00011,BR00233,,1
+PR00314,Milk Delights Face Wash With Honey For Dry Skin,0.9,CA00001,BR00005,4.2,1
+PR00315,Instaglow Oxygen Bleach,0.7,CA00001,BR00234,4.1,1
+PR00316,Soft Drink - Lime Flavoured,0.4,CA00007,BR00235,4.3,1
+PR00317,Coffee Creamer - Coffee-Mate,4.25,CA00004,BR00236,,1
+PR00318,Royce Premium High Quality Pedal Plastic Dustbin / Garbage Bin - Blue,2.65,CA00003,BR00237,2.8,1
+PR00319,Khaas Shampoo Bar - Heena Amla,2.95,CA00001,BR00238,,1
+PR00320,Bubble Glass,10.41,CA00002,BR00239,,1
+PR00321,Dazzle Livid Lilac Dinner Set - White,18.95,CA00002,BR00025,3.8,1
+PR00322,Dhanwantharam Kwath,1.4,CA00001,BR00240,,1
+PR00323,Suzzan Glass Bottle With Blue Cap,2.9,CA00002,BR00228,,1
+PR00324,Henko Detergent Bar - Stain Care 250 gm + Mr. White Detergent Powder 1 kg Pouch,0.95,CA00003,BR00077,,1
+PR00325,Tea - English Breakfast,1.95,CA00007,BR00241,4.5,1
+PR00326,Rolled Oats - Gluten Free + Gluten Free - Steel Cut Oats (each 500 g),4.0,CA00006,BR00018,,1
+PR00327,"Wafer Roll - Twister, Black With Vanilla Flavoured Cream",2.75,CA00004,BR00242,,1
+PR00328,Steel Cut Oats,6.5,CA00006,BR00200,3.5,1
+PR00329,Zucchini - Green,0.625,CA00010,BR00104,,1
+PR00330,Green Sliced Olives,2.0,CA00004,BR00243,4.0,1
+PR00331,Ready To Eat - Khatta Meetha Poha,0.6,CA00006,BR00244,4.1,1
+PR00332,Roasted Soyanuts - Wasabi,1.85,CA00004,BR00245,,1
+PR00333,Radiance Boost Orange Aroma Mask,1.25,CA00001,BR00029,2.5,1
+PR00334,Muffin/Cup Cake Vanilla 200 g + Choco Chip 200 g (Pack of 4 each),3.18,CA00008,BR00072,,1
+PR00335,Masala Oats - Veggie Twist,1.95,CA00006,BR00246,4.2,1
+PR00336,Sunscreen Cream - Sunblock Anti Aging SPF UV 60,4.75,CA00001,BR00247,4.5,1
+PR00337,Sunblock Lotion,2.1,CA00001,BR00248,4.1,1
+PR00338,Copper Water Fliptop Bottle - Stripes,12.99,CA00002,BR00249,2.4,1
+PR00339,For Men Evolution Eau De Toilette,33.0,CA00001,BR00250,,1
+PR00340,"Long & Black Shampoo - With Goodness Of Amla & Bhringraj, For Shiny, Black Hair",1.9,CA00001,BR00251,4.2,1
+PR00341,Toothpaste - Complete Care,0.8,CA00001,BR00252,4.3,1
+PR00342,Olive Oil - Pomace,33.3,CA00004,BR00253,3.5,1
+PR00343,Glass Set - Solo Shot Bar,8.88,CA00002,BR00254,,1
+PR00344,Bonacure Conditioner - Repair Rescue,9.0,CA00001,BR00255,5.0,1
+PR00345,Vegan Chipotle Mayo - Dairy-Free,3.5,CA00004,BR00222,3.4,1
+PR00346,Blueberry,4.1875,CA00010,BR00104,,1
+PR00347,"Oregano - Organic, USDA Certified",0.99,CA00004,BR00256,4.2,1
+PR00348,Chunky Salsa - Mild,1.65,CA00004,BR00223,,1
+PR00349,Multigrain Energy Bar - Nuts n Seed,0.4,CA00004,BR00257,4.0,1
+PR00350,Active Fresh Gel Toothpaste,0.5,CA00001,BR00174,4.3,1
+PR00351,Hydro Replenish Radiance Day Crème with SPF 15,1.49,CA00001,BR00258,4.3,1
+PR00352,Anti-Hair Fall Shampoo,1.3,CA00001,BR00174,4.2,1
+PR00353,"Cereal - Ragi, Rice & Mango With Milk",3.0,CA00009,BR00099,4.0,1
+PR00354,Fenugreek/Methi/Menthya,0.3,CA00005,BR00211,4.1,1
+PR00355,Hair Spa Oil Therapy,3.9,CA00001,BR00259,5.0,1
+PR00356,"Sauce - Bhut Jolokia, Sweet Chilli",2.25,CA00006,BR00260,5.0,1
+PR00357,Dry Fruit Mixed Chatpata,2.15,CA00004,BR00072,,1
+PR00358,Organic Coriander Powder,0.48,CA00005,BR00261,4.1,1
+PR00359,Stainless Steel Induction Base Tope,4.35,CA00002,BR00108,4.1,1
+PR00360,"Adult Cat Food Pocket Tuna 7 kg + Wet Meal Tuna In Jelly, for Adult Cat 1.02 kg",22.2,CA00002,BR00262,,1
+PR00361,"Pork - Mortadella with Olives, Sliced",4.56,CA00011,BR00072,,1
+PR00362,Andhra Special Allam/Ginger Pickle,2.1,CA00006,BR00263,2.0,1
+PR00363,New Dry Diapers - Medium,4.25,CA00009,BR00089,3.8,1
+PR00364,Fruit N Fibre Muesli - Mixed Fruit,3.2,CA00006,BR00264,4.3,1
+PR00365,Basa Fish - Fillet Family Pack,4.99,CA00011,BR00265,,1
+PR00366,Baby Corn - Sweet & Sour,7.15,CA00004,BR00266,5.0,1
+PR00367,Kool - Badam,0.2,CA00008,BR00116,4.2,1
+PR00368,Creamy Crackers - Original,1.8,CA00004,BR00012,4.3,1
+PR00369,Dried - Cranberries 200G + Prunes 200G + Apricots  200G + Blueberries 150G,12.8,CA00004,BR00059,,1
+PR00370,Milly Magic Chocolate Balls - Gluten Free,4.85,CA00006,BR00267,4.0,1
+PR00371,Millet Based Nutrition Bar - Classic,0.2,CA00004,BR00268,4.0,1
+PR00372,"Bathroom Cleaner - Liquid, Hand Made",1.2,CA00003,BR00269,3.5,1
+PR00373,Kodo Millet Rice - Pesticide Free,0.85,CA00005,BR00027,4.1,1
+PR00374,Amla Juice,2.2,CA00007,BR00270,,1
+PR00375,Cheddar - English,5.3,CA00004,BR00271,,1
+PR00376,Power - Fresh Breath Fluoride Toothpaste 100 g + Sensitive Toothpaste 80 g,2.4,CA00001,BR00272,,1
+PR00377,"Matcha Moringa Bar Bites - Mini, Gluten-free, Vegan",1.68,CA00004,BR00273,,1
+PR00378,Sugar Free Juice - Lemon Ginger Squash,3.3,CA00007,BR00274,,1
+PR00379,Wipeout Germ Killing Soap,0.69,CA00001,BR00275,4.0,1
+PR00380,Jelly Crystal - Raspberry,0.45,CA00004,BR00276,4.4,1
+PR00381,Black Tea,1.55,CA00007,BR00277,4.3,1
+PR00382,Grainy Delight,1.5,CA00004,BR00278,,1
+PR00383,"Kitchen Cleaning/Dusting Microfibre Cloth - Grey, G130060GR",2.99,CA00003,BR00279,4.3,1
+PR00384,Amla Churna,0.8,CA00001,BR00280,,1
+PR00385,Professional Herbal Orange Facial Massage Cream,2.25,CA00001,BR00281,,1
+PR00386,Eggless Mayonnaise Dip,1.49,CA00004,BR00282,,1
+PR00387,Nilgiri Green Tea - Yakuso Tulsi,7.5,CA00004,BR00283,,1
+PR00388,"Peri Peri Sauce - Bird Eye Chili, Hot & Tangy",1.79,CA00004,BR00284,4.1,1
+PR00389,"Menstrual Cup - Wings, Pratham",4.89,CA00001,BR00238,,1
+PR00390,Wonderz Milk Fruit N Milk - Mango,0.35,CA00008,BR00094,4.1,1
+PR00391,Cow Ghee/Tuppa,5.4,CA00005,BR00285,3.4,1
+PR00392,"Organic - Black Cardamom Ealachi, Whole",0.47,CA00005,BR00035,4.0,1
+PR00393,Ultimate Choco Berry,9.5,CA00006,BR00286,4.9,1
+PR00394,Steel Belly Shape Storage Dabba/ Container Set With PP Lid - Silver & Blue,9.95,CA00002,BR00287,3.8,1
+PR00395,Kool - Koko,1.2,CA00008,BR00116,4.3,1
+PR00396,"Apple Cider Vinegar - With Mother, Unfiltered & Unpasteurized",5.0,CA00004,BR00288,5.0,1
+PR00397,Dare Deodorant Spray - Men,2.1,CA00001,BR00289,3.9,1
+PR00398,Svachh DLX Alpha Steel Outer Lid Pressure Cooker (20247),22.9,CA00002,BR00156,3.3,1
+PR00399,Hydrating Body Lotion,3.49,CA00001,BR00290,4.0,1
+PR00400,Nuts & Seeds Bar,0.4,CA00006,BR00286,3.8,1
+PR00401,"Nacho Chips - Cheese With Herbs, No Onion, No Garlic",0.7,CA00004,BR00291,4.2,1
+PR00402,Pistachio,4.8,CA00004,BR00292,,1
+PR00403,7 O Click - Permasharp Stainless Blade,0.22,CA00001,BR00045,4.1,1
+PR00404,Classic Sandalwood & Tulsi Hand Wash,2.09,CA00001,BR00293,3.8,1
+PR00405,Chai/Stainless Steel Cups - For The Love Of Tea,3.95,CA00002,BR00294,,1
+PR00406,Brass Karpoor Arti - No.2,2.25,CA00003,BR00003,3.8,1
+PR00407,Nikhaar Hair Removal Cream For All Skin Types,0.82,CA00001,BR00295,4.1,1
+PR00408,Original Care Lip Balm For 24h Moisture With Shea Butter & Natural Oils,1.4,CA00001,BR00005,4.3,1
+PR00409,"Plastic Insulated Jr Casserole For Roti/Chapati Gift Set - White, Regalia",9.1,CA00002,BR00296,3.5,1
+PR00410,Sunspray Sunscreen SPF 30,4.5,CA00001,BR00066,,1
+PR00411,Vastu Combo Pack - Floor Cleaner + toilet cleaner,3.19,CA00003,BR00297,3.6,1
+PR00412,"Water Flask - Insulated Thermosteel, Flip Lid , Silver",10.95,CA00002,BR00296,4.2,1
+PR00413,Drumstick - Organically Grown,0.1625,CA00010,BR00104,,1
+PR00414,Up Or Down Eau De Toilette Deodorant - For Man,2.79,CA00001,BR00165,,1
+PR00415,"Ultra Healing - Extra Dry Skin Moisturiser With Vitamin C, E & B5",3.29,CA00001,BR00298,2.0,1
+PR00416,"Organic, Fennel /Saunf/Sompu Powder",0.25,CA00005,BR00035,4.1,1
+PR00417,Coconut Braker - Big,1.69,CA00002,BR00057,3.0,1
+PR00418,Truffel - Caramel,2.0,CA00006,BR00299,3.7,1
+PR00419,Conditioner - Hair Repair,1.61,CA00001,BR00300,,1
+PR00420,"Stainless Steel Water Bottle - Blue, BB506 3",4.7,CA00002,BR00140,,1
+PR00421,Mischief Avatar Deodorant & Body Spray Perfume For Men,1.99,CA00001,BR00301,3.8,1
+PR00422,Skin Fruits Fruit Moisturising Body Lotion,0.81,CA00001,BR00175,4.1,1
+PR00423,Multipurpose Germ Protection Anti-Bacterial Wipes With Lemon Fragrance,1.0,CA00003,BR00302,,1
+PR00424,Basmati Rice/Basmati Akki - Rozana Super 90,3.9,CA00005,BR00303,3.9,1
+PR00425,Milk power Frappe Milkshake - Belgian Chocolate,0.3,CA00008,BR00030,4.2,1
+PR00426,"Peanut Butter - Unsweetened, Crunchy",2.75,CA00006,BR00304,3.8,1
+PR00427,Salem Turmeric Powder/Arisina Pudi,0.33,CA00005,BR00305,4.4,1
+PR00428,Body Fragrance - Alexander,1.99,CA00001,BR00213,4.3,1
+PR00429,"Steel Storage/Lunch Container- No.1, Blue, Klip It",1.19,CA00002,BR00306,3.1,1
+PR00430,Ladies Finger,0.35,CA00010,BR00104,,1
+PR00431,Aloe Vera Juice - Purifies Blood & Boosts Immunity,2.2,CA00004,BR00307,1.0,1
+PR00432,"Balloon - Polka Dot, 12 Inch",1.29,CA00003,BR00308,3.9,1
+PR00433,School/Stationery Kit,0.49,CA00003,BR00309,4.1,1
+PR00434,Face Wash - White Tea & Chamomile,1.85,CA00001,BR00248,4.2,1
+PR00435,Bathroom Cleaner,2.99,CA00003,BR00310,4.0,1
+PR00436,Imperial Desert Set - Aqua Leaves,6.25,CA00002,BR00025,2.8,1
+PR00437,Solitaire Storage Transparent Pet Container Set - Green Lid,9.69,CA00002,BR00034,4.2,1
+PR00438,Organic Cold Pressed Virgin Coconut Oil,3.65,CA00004,BR00141,4.4,1
+PR00439,DiaFree Juice,4.2,CA00007,BR00311,,1
+PR00440,Hand Wash Rose & Geranium - Anti Bacterial,3.49,CA00001,BR00312,5.0,1
+PR00441,Namkeen - Flattend Rice Mixture,0.38,CA00006,BR00313,4.0,1
+PR00442,Borosilicate Glass Rectangular Food Container With Green Lid,3.39,CA00002,BR00068,,1
+PR00443,Black Naturals,0.39,CA00001,BR00092,4.2,1
+PR00444,Sorghum Rava/ Semolina,0.8,CA00004,BR00314,4.4,1
+PR00445,Sensitive Toothpaste - Fresh Mint,2.3,CA00001,BR00315,4.3,1
+PR00446,Floor Cleaner - Lime,0.7,CA00003,BR00316,3.8,1
+PR00447,Hair Serum - Anti-Dandruff,7.5,CA00001,BR00248,1.0,1
+PR00448,"Face Mask 3-Layer Surgical - Disposable, Anti-Dust & Anti-Pollution, With Earloop",0.99,CA00001,BR00317,3.5,1
+PR00449,Veda Keto-Slim Ultra Weight Loss,16.99,CA00001,BR00318,,1
+PR00450,"Basmati Rice Mini Mogra, Broken/Tukda 5 Kg + Wheat Flour (Chakki Atta) 10 Kg",7.45,CA00005,BR00035,,1
+PR00451,Tapioca,0.2125,CA00010,BR00104,,1
+PR00452,Organic - Kalonji,0.5,CA00005,BR00044,4.2,1
+PR00453,Savoury - Pizza,1.9,CA00004,BR00161,,1
+PR00454,Water/Juice Glass Tumbler - Volvic 3303,4.25,CA00002,BR00319,,1
+PR00455,Red Poha,0.8,CA00005,BR00320,4.0,1
+PR00456,Brightening Serum,14.5,CA00001,BR00113,4.0,1
+PR00457,Ivory Glass Bottle - Orange & Yellow Floral,1.9,CA00002,BR00228,,1
+PR00458,Sheer Perfume For Women - EDP,15.95,CA00001,BR00321,4.4,1
+PR00459,Dog Treats - Diced Chicken,1.95,CA00002,BR00322,,1
+PR00460,Baking Powder - Double Acting,1.45,CA00004,BR00323,5.0,1
+PR00461,"Ready Mix - Kheer, Vermicelli",0.6,CA00006,BR00324,4.3,1
+PR00462,Scrubbing Broom Brush - Outdoor,2.85,CA00003,BR00325,4.5,1
+PR00463,Organic Wheat Dalia,0.55,CA00005,BR00044,4.1,1
+PR00464,Moisturizing Body Bath - Green Tea & Milk,2.79,CA00001,BR00326,,1
+PR00465,The Original Kashaya - Caffeine Free,2.79,CA00004,BR00327,4.8,1
+PR00466,Nizami Hyderabadi Cuisine,3.95,CA00004,BR00126,,1
+PR00467,Elegance Deodorizing Talc - For Men,1.85,CA00001,BR00177,4.4,1
+PR00468,"LED Bulb - 10 Watt CDL Round Base Lyor 5 Star Series, Cool Day Light White, B22",2.85,CA00002,BR00328,,1
+PR00469,Organic Rasam Ready Mix - Long Pepper,0.85,CA00006,BR00120,4.2,1
+PR00470,Gold Caramel Candy,0.5,CA00006,BR00329,4.3,1
+PR00471,Masala - Birayani Pulao,0.8,CA00005,BR00330,4.2,1
+PR00472,Hair Fall Control Oil,2.9,CA00001,BR00224,4.0,1
+PR00473,Bio Renew White Strawberry & Sweet Mint Conditioner,6.5,CA00001,BR00331,4.4,1
+PR00474,"Comfort Bathroom Stool Plastic/Patla - Plain, Big, Assorted",4.26,CA00003,BR00332,3.4,1
+PR00475,Bounce Biscuits - Elaichi Creme,0.3,CA00006,BR00094,4.1,1
+PR00476,"Pumice Stone & Emery Foot Filer - FFL3407, Colour May Vary",1.75,CA00001,BR00333,3.8,1
+PR00477,Light Soy Sauce - Reduced Salt,3.85,CA00004,BR00335,3.9,1
+PR00478,"Kitchen Cleaning/Dusting Microfibre Cloth - Red & Grey, G130064RG",2.58,CA00003,BR00279,4.0,1
+PR00479,Painting Kit,1.99,CA00003,BR00336,4.7,1
+PR00480,Diamond Skin Brightening Kit - Consumer Pack,2.5,CA00001,BR00175,4.0,1
+PR00481,Organic - Turmeric Powder/Arisina Pudi,0.4,CA00005,BR00320,4.7,1
+PR00482,Natural Neem Agarbatti,1.8,CA00003,BR00219,3.0,1
+PR00483,Raspberry Strawberry Preserve,3.49,CA00004,BR00337,3.5,1
+PR00484,Meghdoot Honey Almond Body Lotion,1.95,CA00001,BR00209,,1
+PR00485,Hajmola Maha Candy - Aam+Imli,1.3,CA00001,BR00280,4.4,1
+PR00486,Rice Bran Oil,2.15,CA00005,BR00338,4.1,1
+PR00487,"N95 Washable Face Mask - Blue, Medium",3.95,CA00001,BR00339,3.8,1
+PR00488,Coriander Powder,0.24,CA00005,BR00270,4.2,1
+PR00489,Dressing - Creamy Caesar,2.7,CA00004,BR00340,3.9,1
+PR00490,Shishu Taila - For Healthy Skin & Stronger Bones,2.0,CA00001,BR00189,,1
+PR00491,Chocolate Flavoured Lubes,3.0,CA00001,BR00341,2.3,1
+PR00492,Free Range Eggs - Omega 3,1.5,CA00011,BR00342,,1
+PR00493,Whiteglow Skin Whitening & Brightening Gel Creme PA+++ - SPF 25,3.9,CA00001,BR00343,4.3,1
+PR00494,Premium Californian Roasted & Salted Pistachios - Value Pack,8.75,CA00004,BR00059,,1
