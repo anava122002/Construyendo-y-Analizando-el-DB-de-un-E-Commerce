@@ -42,7 +42,7 @@ Trabajaremos con un dataset sintético que simula la evolución de un e-commerce
 
 Contiene datos dimensionales tanto de productos y marcas como de clientes y trabajadores de cada país, además de datos transaccionales de las reposiciones de inventario, pedidos y detalles sobre los productos comprados en cada pedido. 
 
-Una descripción detallada de su creación se encuentra en [PYTHON_EXPLAINED.md](PYTHON_EXPLAINED.md).
+Una descripción detallada de su creación se encuentra en [PYTHON_EXPLAINED.md](PYTHON_EXPLAINED.md). Para el análisis se usará MySQL.
 
 Los datos a partir de los cuales se ha construido el dataset provienen de:
 
@@ -155,13 +155,11 @@ A continuación se muestran las conclusiones obtenidas de las vistas calculadas 
 
 ### Ventas por país. Evolución y comportamiento
 
-A nivel general, el comercio cuenta con un total de 423.918 pedidos realizados y las ganancias ascienden a 22.746.691,93€, con una media de 53,66€ ganados por pedido. El mercado canadiense supone el 41,93% del mercado total (177.752 pedidos), sólo un 0,12% por delante de Reino Unido (174.708 pedidos), y un total de ganancias de 9.399.717,55€. El país con menos actividad es Irlanda con un 16,86% del total de pedidos y unas ganancias de 3.823.733€.
+El comercio cuenta con un total de 423.918 pedidos realizados y las ganancias ascienden a 22,7M€, con una media de 53,66€ ganados por pedido. El mercado canadiense supone el 41,93% del mercado total (177.752 pedidos en total y 25.393 de media por año), con una ganancia total de 9,4M€ (y media de 1,37M€ por año). Le siguen Reino Unido con un 41,21% de aportación al total de pedidos e Irlanda con un 16,86%. Sabiendo que el comercio no empezó a operar en Canadá hasta 2020, los datos indican que ha sido el mercado con mayor crecimiento desde su inicio, llegando a superar en 6 sólo años a los mercados de Reino Unido e Irlanda de 11 y 9 años respectivamente.
 
-Puesto que los mercados no iniciaron su actividad en el mismo año, es interesante estudiar las medias de las métricas por año. Volvemos a ver como Canadá es el mercado líder con una ganancia media de 1.371.388,22€ por año y 25.393 pedidos, seguido de Reino Unido (776.936€) e Irlanda (388.373,69€). Sabiendo que el comercio no empezó a operar en Canadá hasta 2020, podemos asumir que ha sido el que mayor crecimiento ha sufrido desde su inicio, llegando a superar en 6 sólo años a los mercados de Reino Unido e Irlanda de 11 y 9 años respectivamente.
+La diferencia media de ganancias por pedido oscila entre los 45€ y 60€ con una variabilidad de aproximadamente 1,23€ para Irlanda y Canadá, y de casi 2€ para Reino Unido, que además tiene en promedio los pedidos más baratos (de 53,36€ frente a los 53,51€ Irlanda y 54€ de Canadá).
 
-Finalmente, vemos como la diferencia media de ganancias por pedido oscila en los tres casos entre los 45€ y 60€ con una variabilidad de aproximadamente 1,23€ para Irlanda y Canadá, y de casi 2€ para Reino Unido, que además tiene en promedio los pedidos más baratos (de 53,36€ frente a los 53,51€ Irlanda y 54€ de Canadá).
-
-Podemos concluir entonces que el mercado más rentable y con mayor crecimiento actualmente es Canadá, teniendo tanto las mayores ganancias absolutas y medias como el mayor número de pedidos de los tres mercados. 
+Podemos concluir entonces que el mercado más rentable y con mayor crecimiento actualmente es Canadá, teniendo tanto las mayores ganancias absolutas y medias como el mayor número de pedidos de los tres mercados. Dado que el ticket medio es casi homogéneo entre países, las diferencias de rendimiento se explican principalmente por el volumen de pedidos y la frecuencia de compra, no por el precio. Esto sugiere que el éxito en Canadá se debe a un mayor dinamismo del mercado y posiciona al país como la principal oportunidad de crecimiento para el negocio.
 
 ### Productos por país. Aceptación del producto y consumo
 
@@ -169,17 +167,20 @@ Los productos más populares son todos de la categoría 'Fruits & Vegetables', c
 
 Las categorías más populares son 'Beauty & Hygiene', 'Kitchen, Garden & Pets' y 'Gourmet & World Food'. Parece que 'Fruits & Vegetables' es una de las menos populares a pesar de tener los productos más comprados. Podemos asumir que el resto de categorías ofertan más productos aunque se compran individualmente mientras que los de 'Fruits & Vegetables' se compran en grupo. Al calcular las mismas métricas para las marcas, vemos que son marcas de 'Fruits & Vegetables', como 'Fresho', 'Sunfeast' o 'Amul', las más populares pero las que más ganancias generan son las de 'Beauty & Hygiene', como 'Ajmul', 'Prestige' o 'Cello', confirmando la hipótesis anterior.
 
-Los 5 productos más populares por país son, en general, los mismos. Vemos como en Reino Unido y especialmente en Irlanda se consume 'Coriander Leaves 100 g + Garlic 250 g + Ginger 250 g + Chilli Green Long 250 g'. 'Drumstick - Organically Grown' se coloca como el favorito en los tres países aunque con una diferencia menor a 100 unidades vendidas con respecto al siguiente producto.
+Los 5 productos más populares por país son, en general, los mismos. Vemos como en Reino Unido y especialmente en Irlanda se consume 'Coriander Leaves 100 g + Garlic 250 g + Ginger 250 g + Chilli Green Long 250 g'. 'Drumstick - Organically Grown' se coloca como el favorito en los tres países aunque con una diferencia menor a 100 unidades vendidas con respecto al siguiente producto. La conclusión directa es que no hay diferenciación de mercado por países a nivel de producto.
 
 ### Factor humano. Clientes y trabajadores
 
-Si agrupamos los clientes por ciudad no vemos diferencias notorias. Todos los clientes tienen una edad entre los 18 y 79 años, con una media que oscila entre los 47 y 50 años. Los pedidos se mueven entre las 33.000 y 40.000, siendo Londres la ciudad con menos pedidos (32.894 pedidos y 1734585.42€) y Dublín la que más (3.6726 pedidos y 1973008.86€). Es notorio ver que el mercado canadiense  se ajusta tanto a los estándares de, por ejemplo, el inglés, teniendo en cuenta que es el último en empezar a operar con diferencia.
+Si agrupamos los clientes por ciudad no vemos diferencias notorias. El total de pedidos se mueve entre los 33.000 y 40.000, siendo Londres la ciudad con menos pedidos (32.894 pedidos y 1,7M€) y Dublín la que más (3.6726 pedidos y 1,9M€). Es notorio ver que el mercado canadiense se ajusta tanto a los estándares de, por ejemplo, el inglés, teniendo en cuenta que es el último en empezar a operar con diferencia. De hecho, la mayoría de clientes con mayor volumen de compras son canadienses, siendo los dos clientes con más pedidos Yann Borgne y Juan Moyano, ambos suscritos en 2025 y con más de 140 pedidos realizados y 8M€ gastados. 
 
-La frecuencia de compra de los clientes es una sorpresa. Vemos como hay clientes que llegan a dejar pasar hasta casi 300 días de media sin comprar, casi un año. El mercado más activo vuelve a ser el canadiense, con una media de una compra cada 138 días. El mercado inglés parece ser bastante más lento, llegando a pasar de media 284 días sin compras, habiendo un total de hasta 3.188 días entre compra y compra, más de 1.500 en comparación a Canadá y casi 1.000 en comparación a Irlanda (que tiene una media de 232 días entre compra y compra).
+La frecuencia de compra de los clientes es una sorpresa. Vemos como hay clientes que llegan a dejar pasar hasta casi 300 días de media sin comprar. El mercado más activo vuelve a ser el canadiense, con una media de una compra cada 138 días. El mercado inglés parece ser bastante más lento, llegando a pasar de media 284 días sin compras, habiendo un total de hasta 3.188 días entre compra y compra, más de 1.500 en comparación a Canadá. 
 
-Como podíamos intuir, la mayoría de clientes con mayor volumen de compras son canadienses. El cliente con más compras es Yann Borgne, canadiense, que se suscribió en 2025 y desde entonces ha hecho un total de 144 pedidos con un valor de 8.153,02€.  El segundo en Juan Moyano, también canadiense y cliente desde 2025, que ha hecho 140 pedidos por un total de 8.348,12€, algo más que el cliente anterior. 
+Los datos indican que las diferencias en el rendimiento del negocio no se explican por el perfil del cliente, sino por su comportamiento de compra. En este sentido, Canadá destaca claramente por una mayor frecuencia de compra y concentración de clientes, lo que impulsa su crecimiento frente a mercados como Reino Unido, donde la recurrencia es significativamente menor. Además, el aumento de la carga de trabajo en empleados recientes, especialmente en Canadá, refuerza la idea de que este mercado está en plena fase de expansión y demanda una mayor capacidad operativa.
 
-Por último, vemos como la carga de trabajo ha aumentado con los años. Concretamente, vemos como los trabajadores contratados más recientemente son los que tienen más carga de trabajo de media por año. El top 10 de trabajadores con mayor carga de trabajo se compone únicamente de canadienses, lo que vuelve a mostrar cómo este mercado es el que mayor subida ha tenido.
+## Conclusiones y Estrategias a Futuro
+
+
+
 
 ## Replicación del proyecto
 
